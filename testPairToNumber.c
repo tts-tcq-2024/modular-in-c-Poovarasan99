@@ -1,6 +1,5 @@
 #include "testPairToNumber.h"
 #include <stdio.h>
-#include "color_code_utils.h"
 #include <assert.h>
 
 int GetPairNumberFromColor(const ColorPair* colorPair) {
