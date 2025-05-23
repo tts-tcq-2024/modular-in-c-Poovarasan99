@@ -1,6 +1,8 @@
 #ifndef TEST_PAIRTONUMBER
 #define TEST_PAIRTONUMBER
 
+#include "color_code_utils.h"
+
 int GetPairNumberFromColor(const ColorPair* colorPair);
 
 void testNumberToPair(int pairNumber,
