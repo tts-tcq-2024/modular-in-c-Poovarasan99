@@ -1,5 +1,6 @@
 #include "testNumberToPair.h
 #include "color_code_utils.h"
+#include <assert.h> 
 #include "stdio.h"
 
 inline void ColorPairToString(const ColorPair* colorPair, char* buffer) {
