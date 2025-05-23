@@ -3,8 +3,8 @@
 
 #include "color_code_utils.h"
 
-inline void ColorPairToString(const ColorPair* colorPair, char* buffer);
-inline ColorPair GetColorFromPairNumber(int pairNumber);
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
+ColorPair GetColorFromPairNumber(int pairNumber);
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
     enum MinorColor expectedMinor);
