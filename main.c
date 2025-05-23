@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <assert.h> 
-#include "color_code_utils.h"
+#include "testNumberToPair.h"
+#include "testPairToNumber.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
